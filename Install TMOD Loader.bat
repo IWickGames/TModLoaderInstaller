@@ -5,7 +5,7 @@ title TModLoader Install
 :start
 echo.
 echo        Please enter your Terraria install directory
-echo        EX: D:\SteamLibrary\steamapps\common\Terraria
+echo        EX: E:\SteamLibrary\steamapps\common\Terraria
 echo.
 set /p installdir="InstallDir>"
 set version=v0.11.3
