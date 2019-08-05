@@ -4,8 +4,8 @@ powershell wget "https://github.com/IWickGames/TModLoaderInstaller/archive/maste
 7za x "update.zip">nul
 del /f /q "Install TMOD Loader.bat">nul
 move "TModLoaderInstaller-master\Install TMOD Loader.bat" "">nul
-start "" "Install TMOD Loader.bat"
 echo Done!
 timeout /nobreak 1 >nul
 echo NoUpdate>update.dat
+start "" "Install TMOD Loader.bat"
 exit
