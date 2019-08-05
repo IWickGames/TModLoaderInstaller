@@ -7,5 +7,7 @@ move "TModLoaderInstaller-master\Install TMOD Loader.bat" "">nul
 echo Done!
 timeout /nobreak 1 >nul
 echo NoUpdate>update.dat
+rd /s /q "TModLoaderInstaller-master"
+del /f /s "update.zip"
 start "" "Install TMOD Loader.bat"
 exit
