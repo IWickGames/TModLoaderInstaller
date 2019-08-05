@@ -51,5 +51,5 @@ pause >nul
 goto start
 
 :update
-start "" "update.dat"
+start "" "update.bat"
 exit
