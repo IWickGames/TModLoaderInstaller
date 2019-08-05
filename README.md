@@ -1,0 +1,2 @@
+# TModLoaderInstaller
+Install TModLoader automatically!
