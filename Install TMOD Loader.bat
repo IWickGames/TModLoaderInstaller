@@ -9,7 +9,7 @@ echo        EX: E:\SteamLibrary\steamapps\common\Terraria
 echo.
 set /p installdir="InstallDir>"
 set version=v0.11.3
-set download=https://github.com/tModLoader/tModLoader/releases/download/v0.11.3/tModLoader.Windows.v0.11.3.zip
+set download=https://github.com/tModLoader/tModLoader/releases/download/v0.11.4/tModLoader.Windows.v0.11.4.zip
 echo Starting Powershell
 echo Running wget ...
 powershell wget "%download%" -OutFile "tmodloader.zip">nul
